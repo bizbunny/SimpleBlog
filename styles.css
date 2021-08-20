@@ -30,7 +30,7 @@ html {
   --fw-body: 300;
   --fw-bold: 800;
   --fw-title: 400;
-  --fw-number: 800;
+  --fw-decoText: 800;
 }
 
 body {
@@ -83,7 +83,7 @@ p {
 }
 
 .title span {
-  font-weight: var(--fw-number);
+  font-weight: var(--fw-decoText);
   color: black;
   display: inline-block;
   position: absolute;
