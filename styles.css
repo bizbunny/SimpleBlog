@@ -126,7 +126,23 @@ p {
 .credits a:hover {
   color: var(--clr-accent);
 }
-
+.collapsible {
+  cursor: pointer;
+  background-color: #fedfff;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 20px;
+}
+.active,
+.collapsible:hover {
+  background-color: #ed92f0;
+}
+.content-collapse {
+  display: none;
+  overflow: hidden;
+}
 ul {
   margin-top: 0;
 }
